@@ -47,7 +47,7 @@ Executable ya
   Main-is: ws_uploader.hs
   
   -- Packages needed in order to build this package.
-  Build-depends:       base, xml, http-enumerator, bytestring
+  Build-depends:       base, xml, http-enumerator, bytestring, feed, utf8-string
   
   -- Modules not exported by this package.
   -- Other-modules:       
